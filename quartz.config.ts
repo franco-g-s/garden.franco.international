@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       token: "a4f83cd948034998979ee9c2f5d992d4",
     },
     locale: "en-US",
-    baseUrl: "franco.international",
+    baseUrl: "garden.franco.international",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -91,6 +91,7 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
+      Plugin.JsonFeed({ limit: 10 }),
     ],
   },
 }
