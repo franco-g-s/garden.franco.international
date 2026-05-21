@@ -56,7 +56,7 @@ Move the existing Quartz digital garden from `franco.international` to `garden.f
 
 ---
 
-## Phase 3: franco.international hub ← **CURRENT**
+## Phase 3: franco.international hub ✅ **COMPLETE** (pending photos)
 
 ### Goal
 A custom Astro site that is the main face of the personal web presence. Minimal, clean, white. Three sections below the landing screen.
@@ -106,19 +106,19 @@ All sections follow the same minimal aesthetic as the landing — lots of whites
 - **Future:** Pull latest Strava activity at Astro build time — distance, sport type, date — displayed as a subtle live card beneath the Strava link
 
 ### Tasks
-- [ ] Initialize Astro project, configure GitHub Pages deploy
-- [ ] Implement floating photos landing screen
-  - [ ] Harbor-bobbing animation (sine wave, `requestAnimationFrame`)
-  - [ ] Responsive layout: name stays centered, photos reposition on mobile
-  - [ ] Photo selection: curate 10–12 photos
-- [ ] Implement scroll sections
-  - [ ] Build-time JSON fetch from garden feed
-  - [ ] CV highlight extraction
-  - [ ] Socials section
-- [ ] Typography and visual polish
-- [ ] Mobile responsiveness
-- [ ] Configure DNS: `franco.international` → GitHub Pages
-- [ ] Verify SSL
+- [x] Initialize Astro project, configure GitHub Pages deploy
+- [x] Implement floating photos landing screen
+  - [x] Harbor-bobbing animation (layered sine waves, `requestAnimationFrame`)
+  - [x] Responsive layout: name stays centered, 4 corner photos on mobile
+  - [ ] Photo selection: add 12 photos to `public/photos/01.jpg`–`12.jpg` *(user action)*
+- [x] Implement scroll sections
+  - [x] Build-time JSON fetch from garden feed (`notes.json`)
+  - [x] CV highlights (hardcoded from CV content)
+  - [x] Elsewhere section (Instagram, Strava, YouTube, LinkedIn, GitHub)
+- [x] Typography and visual polish
+- [x] Mobile responsiveness
+- [x] Configure DNS: `franco.international` A records → GitHub Pages (pre-existing)
+- [x] Verify SSL + live deploy at franco.international
 
 ---
 
