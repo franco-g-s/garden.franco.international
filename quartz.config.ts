@@ -91,7 +91,7 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
-      Plugin.JsonFeed({ limit: 10 }),
+      Plugin.JsonFeed({ limit: 40 }),
     ],
   },
 }
