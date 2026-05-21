@@ -32,7 +32,7 @@ A clean, Apple-inspired black-on-white CV page sourced from `/Personal/CV.md` in
   - [x] Print styles: `@media print` — hide print button, clean margins, no orphaned gaps
   - [x] Print button: `window.print()`
 - [x] Set up GitHub Pages deployment (GitHub Actions workflow)
-- [ ] Configure DNS: `cv.franco.international` → GitHub Pages *(add CNAME `cv` → `franco-g-s.github.io` in DNS, then set custom domain in repo settings)*
+- [x] Configure DNS: `cv.franco.international` → GitHub Pages *(add CNAME `cv` → `franco-g-s.github.io` in DNS, then set custom domain in repo settings)*
 - [x] Test print to PDF output
 
 ### Future (Phase 4+)
