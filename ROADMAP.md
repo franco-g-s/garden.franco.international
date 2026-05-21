@@ -132,6 +132,13 @@ All sections follow the same minimal aesthetic as the landing — lots of whites
 - Better homepage for the garden itself
 - Reconsider what content gets published and how it's structured
 
+### Hub integration (update after revamp)
+Once Phase 4 defines the garden's structure, update the Digital Garden section of `franco.international` to reflect that structure:
+- **Replace** the "5 most recent notes" feed with the garden's top-level areas / folders / sections (whatever the Phase 4 structure uses)
+- Each floating card represents an area, not an individual note
+- Cards link to the corresponding section in the garden rather than a single note
+- The `notes.json` feed emitter in the garden may need to be replaced or supplemented with an `areas.json` (or equivalent) that the hub fetches at build time
+
 ---
 
 ## Decisions Log
