@@ -41,24 +41,22 @@ A clean, Apple-inspired black-on-white CV page sourced from `/Personal/CV.md` in
 
 ---
 
-## Phase 2: garden.franco.international migration ← **CURRENT**
+## Phase 2: garden.franco.international migration ✅ **COMPLETE**
 
 ### Goal
 Move the existing Quartz digital garden from `franco.international` to `garden.franco.international` with zero content changes.
 
 ### Tasks
-- [ ] Add JSON feed emitter to Quartz (exposes recent notes for hub to consume)
-  - Output: `/index.json` with `[{ title, slug, date, description }]` sorted by date
-- [ ] Update GitHub Pages custom domain on the Quartz repo → `garden.franco.international`
-- [ ] Configure DNS: `garden.franco.international` → GitHub Pages
-- [ ] Update all internal links that reference `franco.international` → `garden.franco.international`
-- [ ] Set up temporary redirect: `franco.international` → `garden.franco.international` (until Phase 3 ships)
-- [ ] Verify SSL certificates on new subdomain
-- [ ] Update the Obsidian vault note `Digital Garden - garden.franco.international.md` with new URL
+- [x] Add JSON feed emitter to Quartz (`quartz/plugins/emitters/jsonFeed.ts`) — outputs `/notes.json` with title, slug, date, description sorted by date
+- [x] Update GitHub Pages custom domain on the Quartz repo → `garden.franco.international`
+- [x] Configure DNS: `garden.franco.international` CNAME → `franco-g-s.github.io`
+- [x] Set up temporary redirect: `franco.international` → `garden.franco.international` (placeholder hub repo `franco-international-hub`)
+- [x] Verify SSL + propagation
+- [ ] Update the Obsidian vault note `Digital Garden - garden.franco.international.md` with new URL *(low priority, do later)*
 
 ---
 
-## Phase 3: franco.international hub
+## Phase 3: franco.international hub ← **CURRENT**
 
 ### Goal
 A custom Astro site that is the main face of the personal web presence. Minimal, clean, white. Three sections below the landing screen.
