@@ -122,6 +122,17 @@ All sections follow the same minimal aesthetic as the landing — lots of whites
 
 ---
 
+## Phase 3.5: Hub Mobile Optimization *(future)*
+
+### Goals
+- Review and improve the mobile layout of `franco.international`
+- Card and photo positions are currently shared with desktop — audit for mobile readability
+- Consider dedicated mobile photo/card positions or a simplified stacked layout
+- Ensure all floating elements are reachable and readable on small screens
+- Test on real devices (iPhone, iPad)
+
+---
+
 ## Phase 4: Digital Garden Revamp *(future)*
 
 ### Goals (to be defined in detail when we get here)
