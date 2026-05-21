@@ -1,87 +1,82 @@
-# franco.international
+# garden.franco.international
 
-My personal website and digital garden, built with [Quartz](https://quartz.jzhao.xyz) and published from my Obsidian vault.
+My personal digital garden — a curated public subset of my private Obsidian vault, built with Quartz and published via a custom scripted workflow.
 
-🌐 **Live site:** [franco.international](https://franco.international)
+🌐 **Live site:** [garden.franco.international](https://garden.franco.international)
+
+Part of a three-site personal web presence:
+- [franco.international](https://franco.international) — personal hub
+- **[garden.franco.international](https://garden.franco.international)** — this digital garden
+- [cv.franco.international](https://cv.franco.international) — CV
 
 ## About
 
-This is my personal knowledge base where I share:
-- **Academic notes** from ETH Zürich (Mechanical Engineering)
-- **Projects** - coding, hardware design, research
-- **Book notes** and reviews
-- **Media** notes and reflections
-- **About me** - CV and personal background
+A growing collection of public notes:
+- Academic notes from ETH Zürich (Mechanical Engineering)
+- Projects — coding, hardware design, research
+- Book notes and reviews
+- Media notes and reflections
 
 ## Tech Stack
 
 - **Static Site Generator:** [Quartz v4](https://quartz.jzhao.xyz)
-- **Content Source:** Obsidian vault (private repository)
+- **Content Source:** Private Obsidian vault
 - **Hosting:** GitHub Pages
-- **Domain:** franco.international
+- **Domain:** garden.franco.international
 - **Publishing:** Property-based selective publishing (`publish: true`)
 
 ## Architecture
 
-This repository contains the public-facing website. Content is selectively published from my private Obsidian vault using a custom publishing workflow:
+Content is selectively published from a private Obsidian vault:
 
-1. Notes in private vault are marked with `publish: true` property
-2. Publishing script (`scripts/publish.mjs`) processes content:
-   - **Wikilink transformation**: Resolves `[[Note Title]]` to proper web paths (case-insensitive, alias-aware)
-   - **Metadata filtering**: Strips private properties, preserves public metadata
-   - **Content cleaning**: Removes Obsidian comments, base embeds, orphaned headings
-   - **Attachment handling**: Copies referenced images and media files
+1. Notes marked with `publish: true` in the private vault
+2. Publishing script (`scripts/publish.mjs`) transforms content:
+   - **Wikilink resolution:** `[[Note Title]]` → proper web paths (case-insensitive, alias-aware)
+   - **Metadata filtering:** strips private properties, preserves public metadata
+   - **Content cleaning:** removes Obsidian comments, base embeds, orphaned headings
+   - **Attachment handling:** copies referenced images and media files
 3. Quartz builds the static site with custom components
-4. GitHub Pages auto-deploys
+4. GitHub Pages auto-deploys on push to main
 
 **Two-vault system:**
-- **Private vault** (separate repo): Full personal knowledge base with private notes
-- **Public website** (this repo): Curated selection for public consumption
+- **Private vault** (iCloud + private repo): full personal knowledge base
+- **Public website** (this repo): curated selection for public consumption
 
 **Custom Components:**
-- `FrontmatterProperties`: Displays note metadata in collapsible Obsidian-style panel
+- `FrontmatterProperties`: note metadata in a collapsible Obsidian-style panel
 - Enhanced Explorer with single-line overflow
 - Collapsible Table of Contents
-- Always-visible Backlinks with property link support (backlinks from frontmatter wikilinks)
+- Always-visible Backlinks with property link support
+- JSON feed emitter — outputs `/notes.json` for the hub to consume at build time
 
 ## Features
 
-- 📚 Digital garden with wikilinks and backlinks
-- 🔍 Full-text search
-- 🕸️ Interactive graph view (full network on homepage, local connections on pages)
-- 🌓 Dark/light mode
-- 📱 Responsive design
-- 🗂️ File explorer navigation
-- 📋 **Frontmatter properties display** - Obsidian-style metadata panel showing 30+ property types
-- 🔗 **Intelligent wikilink resolution** - Case-insensitive, alias-aware link transformation
-- 🔙 **Property backlinks** - Backlinks generated from wikilinks in frontmatter properties (Obsidian-like behavior)
-- 🎨 Cupertino-inspired design with custom Inter typography
+- Wikilinks and backlinks
+- Full-text search
+- Interactive graph view (full network on homepage, local on pages)
+- Dark/light mode toggle
+- Responsive design
+- Cupertino-inspired design with custom Inter typography
+- Property backlinks — backlinks generated from wikilinks in frontmatter properties
 
-## Structure
+## Content Structure
 
 ```
 content/
-├── about/           # About me & CV
-├── notes/           # Academic notes (ETH Zürich)
-├── projects/        # Coding, hardware, research projects
-├── books/           # Book notes and reviews
-└── media/           # Movies, shows, media notes
+├── about/      # About me
+├── notes/      # General academic notes
+├── eth/        # ETH Zürich coursework
+├── projects/   # Coding, hardware, research
+├── books/      # Book notes and reviews
+└── media/      # Films, videos
 ```
 
 ## Local Development
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
-npx quartz build --serve
-
-# Build for production
-npx quartz build
-
-# Sync to GitHub
-npx quartz sync
+npx quartz build --serve   # dev server with hot reload
+npx quartz build           # production build
 ```
 
 ## Contact
@@ -92,5 +87,4 @@ npx quartz sync
 ## License
 
 Content © 2026 Franco Gómez Schumacher. All rights reserved.
-
-Website built with [Quartz](https://github.com/jackyzha0/quartz) (MIT License).
+Site built with [Quartz](https://github.com/jackyzha0/quartz) (MIT License).
