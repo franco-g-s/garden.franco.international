@@ -52,11 +52,11 @@ Move the existing Quartz digital garden from `franco.international` to `garden.f
 - [x] Configure DNS: `garden.franco.international` CNAME → `franco-g-s.github.io`
 - [x] Set up temporary redirect: `franco.international` → `garden.franco.international` (placeholder hub repo `franco-international-hub`)
 - [x] Verify SSL + propagation
-- [ ] Update the Obsidian vault note `Digital Garden - garden.franco.international.md` with new URL *(low priority, do later)*
+- [x] Update the Obsidian vault note `Digital Garden - garden.franco.international.md` with new URL
 
 ---
 
-## Phase 3: franco.international hub ✅ **COMPLETE** (pending photos)
+## Phase 3: franco.international hub ✅ **COMPLETE**
 
 ### Goal
 A custom Astro site that is the main face of the personal web presence. Minimal, clean, white. Three sections below the landing screen.
@@ -110,7 +110,7 @@ All sections follow the same minimal aesthetic as the landing — lots of whites
 - [x] Implement floating photos landing screen
   - [x] Harbor-bobbing animation (layered sine waves, `requestAnimationFrame`)
   - [x] Responsive layout: name stays centered, 4 corner photos on mobile
-  - [ ] Photo selection: add 12 photos to `public/photos/01.jpg`–`12.jpg` *(user action)*
+  - [x] Photo selection: 26 photos added to `public/photos/01.jpg`–`26.jpg`, compressed to ≤300KB each
 - [x] Implement scroll sections
   - [x] Build-time JSON fetch from garden feed (`notes.json`)
   - [x] CV highlights (hardcoded from CV content)
