@@ -1,7 +1,12 @@
 ---
 title: AliasRedirects
+description: Generates redirect pages from frontmatter aliases.
 tags:
   - plugin/emitter
+image: https://images.unsplash.com/photo-1601735479770-bb5de9dbe844
+repository: "[quartz-community/alias-redirects](https://github.com/quartz-community/alias-redirects)"
+enabled: true
+required: false
 ---
 
 This plugin emits HTML redirect pages for aliases and permalinks defined in the frontmatter of content files.
@@ -33,5 +38,6 @@ This plugin has no configuration options.
 ## API
 
 - Category: Emitter
-- Function name: `Plugin.AliasRedirects()`.
-- Source: [`quartz/plugins/emitters/aliases.ts`](https://github.com/jackyzha0/quartz/blob/v4/quartz/plugins/emitters/aliases.ts).
+- Function name: `ExternalPlugin.AliasRedirects()`.
+- Source: [`quartz-community/alias-redirects`](https://github.com/quartz-community/alias-redirects)
+- Install: `npx quartz plugin add github:quartz-community/alias-redirects`

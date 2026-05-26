@@ -173,7 +173,13 @@ function findPublishableNotes() {
 function walkDir(dir, notes) {
   // Skip hidden dirs, node_modules, .obsidian, Attachments, Templates
   const basename = path.basename(dir)
-  if (basename.startsWith(".") || basename === "node_modules" || basename === "Attachments" || basename === "Templates") return
+  if (
+    basename.startsWith(".") ||
+    basename === "node_modules" ||
+    basename === "Attachments" ||
+    basename === "Templates"
+  )
+    return
 
   let entries
   try {
@@ -372,11 +378,11 @@ function transformContent(content, noteTitleMap = null, frontmatter = null) {
     const propertyLinks = extractPropertyLinks(frontmatter)
     if (propertyLinks.length > 0) {
       // Add horizontal rule to separate, then links as markdown paragraph
-      result += '\n\n---\n\n'
+      result += "\n\n---\n\n"
       for (const link of propertyLinks) {
         result += `[[${link}]] `
       }
-      result += '\n'
+      result += "\n"
     }
   }
 
@@ -418,7 +424,9 @@ function transformFrontmatter(data, noteTitleMap = null, indexNoteTitle = null) 
       result[key] = transformPropertyWikilinks(value, noteTitleMap).trim()
     } else if (Array.isArray(value)) {
       result[key] = value
-        .map((v) => (typeof v === "string" ? transformPropertyWikilinks(v, noteTitleMap).trim() : v))
+        .map((v) =>
+          typeof v === "string" ? transformPropertyWikilinks(v, noteTitleMap).trim() : v,
+        )
         .filter((v) => v !== "") // Remove empty strings
     }
   }
@@ -448,27 +456,30 @@ function transformPropertyWikilinks(value, noteTitleMap) {
     about: "about/index",
   }
 
-  return value.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (match, title, displayText) => {
-    const normalizedTitle = title.trim().toLowerCase()
+  return value.replace(
+    /\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
+    (match, title, displayText) => {
+      const normalizedTitle = title.trim().toLowerCase()
 
-    // Check if this is a known area name
-    if (areaIndexMap[normalizedTitle]) {
+      // Check if this is a known area name
+      if (areaIndexMap[normalizedTitle]) {
+        const display = displayText || title
+        return `[[${areaIndexMap[normalizedTitle]}|${display}]]`
+      }
+
+      const target = noteTitleMap.get(normalizedTitle)
+
+      if (!target) {
+        // Note not published - strip to plain text
+        return displayText || title
+      }
+
+      // Note exists - keep as wikilink with full path
+      const fullPath = target.webPath ? `${target.webPath}/${target.basename}` : target.basename
       const display = displayText || title
-      return `[[${areaIndexMap[normalizedTitle]}|${display}]]`
-    }
-
-    const target = noteTitleMap.get(normalizedTitle)
-
-    if (!target) {
-      // Note not published - strip to plain text
-      return displayText || title
-    }
-
-    // Note exists - keep as wikilink with full path
-    const fullPath = target.webPath ? `${target.webPath}/${target.basename}` : target.basename
-    const display = displayText || title
-    return `[[${fullPath}|${display}]]`
-  })
+      return `[[${fullPath}|${display}]]`
+    },
+  )
 }
 
 // ── Attachment Handling ────────────────────────────────────────────────
@@ -583,7 +594,11 @@ function buildPublishPlan() {
 
     // Transform frontmatter first (to get properly resolved wikilinks)
     // Pass isIndexNote and basename so we can set proper title for index notes
-    const transformedFrontmatter = transformFrontmatter(note.data, noteTitleMap, isIndexNote ? basename : null)
+    const transformedFrontmatter = transformFrontmatter(
+      note.data,
+      noteTitleMap,
+      isIndexNote ? basename : null,
+    )
 
     // Then transform content, passing transformed frontmatter for backlink extraction
     const transformedContent = transformContent(note.content, noteTitleMap, transformedFrontmatter)
@@ -859,10 +874,10 @@ async function executePlan(plan) {
     try {
       execSync("git add -A", { cwd: VAULT_ROOT, stdio: "pipe" })
       const msg = `publish: add web-path to ${plan.webPathWritebacks.length} note(s)`
-      execSync(
-        `git commit --author="Claude <noreply@anthropic.com>" -m "${msg}"`,
-        { cwd: VAULT_ROOT, stdio: "pipe" },
-      )
+      execSync(`git commit --author="Claude <noreply@anthropic.com>" -m "${msg}"`, {
+        cwd: VAULT_ROOT,
+        stdio: "pipe",
+      })
       console.log(`  Committed to vault repo: "${msg}"`)
     } catch {
       console.log("  No changes to commit in vault repo.")
@@ -871,11 +886,11 @@ async function executePlan(plan) {
 
   // 8. Start preview
   console.log("\n  Starting local preview...")
-  const previewProcess = require("child_process").spawn(
-    "npx",
-    ["quartz", "build", "--serve"],
-    { cwd: WEBSITE_ROOT, stdio: "inherit", detached: true },
-  )
+  const previewProcess = require("child_process").spawn("npx", ["quartz", "build", "--serve"], {
+    cwd: WEBSITE_ROOT,
+    stdio: "inherit",
+    detached: true,
+  })
 
   // Wait a moment for server to start
   await new Promise((r) => setTimeout(r, 3000))

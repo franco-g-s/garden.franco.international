@@ -1,24 +1,3 @@
-@use "./base.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
-
-// Hide property backlinks section (used for link graph only)
-// Hides everything after the last HR in the article content
-.popover-hint .article > hr:last-of-type,
-.popover-hint .article > hr:last-of-type ~ * {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-// Also hide in main content area
-.center article > hr:last-of-type,
-.center article > hr:last-of-type ~ * {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}

@@ -99,13 +99,12 @@ a {
     line-height: 1.4rem;
 
     &.broken {
-      color: inherit;
-      opacity: 1;
-      background-color: transparent;
-      padding: 0;
-      cursor: text;
-      pointer-events: none;
-      font-weight: inherit;
+      color: var(--secondary);
+      opacity: 0.5;
+      transition: opacity 0.2s ease;
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
     &:has(> img) {
@@ -135,7 +134,7 @@ a {
 }
 
 .desktop-only {
-  display: initial;
+  display: contents;
   &.flex-component {
     display: flex;
   }
@@ -156,7 +155,7 @@ a {
     &.flex-component {
       display: flex;
     }
-    display: initial;
+    display: contents;
   }
 }
 
@@ -307,6 +306,48 @@ a {
     & footer {
       margin-left: 0;
     }
+  }
+}
+
+// ============================================================================
+// Page Frame Overrides
+// ============================================================================
+
+// Full-width frame: no sidebars, center content spans full width
+.page[data-frame="full-width"] > #quartz-body {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "grid-header"
+    "grid-center"
+    "grid-footer";
+
+  @media all and ($tablet) {
+    grid-template-columns: auto;
+  }
+
+  & .center.full-width {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+// Minimal frame: no sidebars, no header/footer chrome, body content only + footer
+.page[data-frame="minimal"] > #quartz-body {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "grid-center"
+    "grid-footer";
+
+  @media all and ($tablet) {
+    grid-template-columns: auto;
+  }
+
+  & .center.minimal {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0;
   }
 }
 
@@ -639,9 +680,4 @@ iframe.pdf {
   background: var(--secondary);
   transition: width 0.2s ease;
   z-index: 9999;
-}
-
-// Hide collapse toggle only for Explorer (keep it for Table of Contents)
-.explorer .fold {
-  display: none !important;
 }
