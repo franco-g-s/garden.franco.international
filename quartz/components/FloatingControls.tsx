@@ -1,23 +1,37 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { concatenateResources } from "../util/resources"
+import { External } from "./external"
 
-interface FloatingControlsOptions {
-  components: QuartzComponent[]
-}
+// FloatingControls hardcodes Darkmode and ReaderMode as its children.
+// These are loaded from the plugin registry at instantiation time via External().
+// The YAML options field is intentionally unused — YAML cannot serialize component instances.
 
-export default ((opts?: Partial<FloatingControlsOptions>) => {
-  const FloatingControlsComponent: QuartzComponent = (props: QuartzComponentProps) => {
-    const components = opts?.components ?? []
-    return (
-      <div class="floating-controls">
-        {components.map((Component) => (
-          <Component {...props} />
-        ))}
-      </div>
-    )
+export default ((_opts?: Record<string, unknown>) => {
+  // Resolve child components from the plugin registry.
+  // Both plugins must be installed (github:quartz-community/darkmode and reader-mode).
+  let Darkmode: QuartzComponent | null = null
+  let ReaderMode: QuartzComponent | null = null
+  try {
+    Darkmode = External("darkmode")
+  } catch {
+    // darkmode plugin not installed — degrade gracefully
+  }
+  try {
+    ReaderMode = External("reader-mode")
+  } catch {
+    // reader-mode plugin not installed — degrade gracefully
   }
 
-  const childComponents = opts?.components ?? []
+  const childComponents: QuartzComponent[] = [Darkmode, ReaderMode].filter(
+    (c): c is QuartzComponent => c !== null,
+  )
+
+  const FloatingControlsComponent: QuartzComponent = (props: QuartzComponentProps) => (
+    <div class="floating-controls">
+      {Darkmode && <Darkmode {...props} />}
+      {ReaderMode && <ReaderMode {...props} />}
+    </div>
+  )
 
   FloatingControlsComponent.css = concatenateResources(
     floatingControlsStyle,

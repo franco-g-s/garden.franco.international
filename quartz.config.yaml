@@ -124,13 +124,27 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
-    # filterFn is set via quartz.ts TypeScript override (cannot be expressed in YAML)
+    # filterFn and layout are handled by DualExplorer (which wraps explorer internally).
+    # Explorer is kept enabled so its component is loaded into the registry for DualExplorer to use,
+    # but it has no layout entry of its own — DualExplorer renders it inside the tab panel.
     options:
       folderDefaultState: collapsed
       useSavedState: true
+  # DualExplorer: built-in two-tab sidebar (Content file tree + Topics list).
+  # Pre-registered in quartz.ts before config loads — the fake source triggers a lookup by
+  # the PascalCase name "DualExplorer" in the component registry (install failure is harmless).
+  - source: github:quartz-builtin/dual-explorer
+    enabled: true
     layout:
       position: left
       priority: 50
+  # FloatingControls: fixed bottom-left pill with Darkmode + ReaderMode toggles.
+  # Pre-registered in quartz.ts; child components resolved via External() at instantiation.
+  - source: github:quartz-builtin/floating-controls
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 100
   - source: github:quartz-community/graph
     enabled: true
     options:
@@ -229,16 +243,10 @@ plugins:
       priority: 10
   - source: github:quartz-community/darkmode
     enabled: true
-    layout:
-      position: left
-      priority: 30
-      group: toolbar
+    # Layout removed — rendered inside FloatingControls (fixed bottom-left pill) instead of toolbar
   - source: github:quartz-community/reader-mode
     enabled: true
-    layout:
-      position: left
-      priority: 35
-      group: toolbar
+    # Layout removed — rendered inside FloatingControls (fixed bottom-left pill) instead of toolbar
   - source: github:quartz-community/breadcrumbs
     enabled: true
     layout:
