@@ -115,11 +115,25 @@ Tab state in local component state. Replaces the current `explorer` component in
 
 ---
 
-## 3. Floating Island
+## 3. Floating Controls
 
-Restore the v4 floating UI element: a small fixed-position card hovering over the content area containing the light/dark mode toggle and the reader mode toggle.
+Restore the v4 `FloatingControls` component, which was dropped during the v4→v5 upgrade (dark/reader mode controls moved to the toolbar instead).
 
-**Implementation:** `quartz/components/FloatingIsland.tsx` + CSS. Registered as a layout component (likely `afterBody` or as a standalone fixed element). The existing `darkmode` and `reader-mode` components in the toolbar may be removed or kept depending on how the island is positioned.
+**What it is:** a fixed bottom-left frosted-glass pill (`bottom: 1rem; left: 1rem; z-index: 999`) containing the `Darkmode()` and `ReaderMode()` toggles. It uses `backdrop-filter: blur(10px)`, `border-radius: 12px`, and a subtle box-shadow. Stays visible even when reader mode is active. It's a generic wrapper — takes child components via a `components: []` option and propagates their CSS and scripts via `concatenateResources`.
+
+**Implementation:** port `quartz/components/FloatingControls.tsx` and `quartz/components/styles/floatingcontrols.scss` from v4 to v5. The main change is updating import paths to v5 conventions (v4 used `./types`, `../util/resources`, `./styles/*.scss`). Register in `quartz.config.yaml` layout (same position as v4: `afterBody`).
+
+**Usage in config:**
+
+```yaml
+- component: FloatingControls
+  options:
+    components:
+      - Darkmode
+      - ReaderMode
+```
+
+The existing `darkmode` and `reader-mode` entries in the toolbar can be removed once the floating controls are working.
 
 ---
 
