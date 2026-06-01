@@ -22,7 +22,10 @@ componentRegistry.register("FloatingControls", FloatingControls, "builtin")
 componentRegistry.setOptionOverrides("dual-explorer", {
   explorerOptions: {
     filterFn: (node: { slugSegment: string }) =>
-      node.slugSegment !== "tags" && node.slugSegment !== "eth" && node.slugSegment !== "topics",
+      node.slugSegment !== "tags" &&
+      node.slugSegment !== "eth" &&
+      node.slugSegment !== "topics" &&
+      node.slugSegment !== "index",
   },
 })
 

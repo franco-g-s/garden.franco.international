@@ -17,13 +17,13 @@ interface DualExplorerOptions {
 }
 
 const defaultTopics: TopicLink[] = [
-  { label: "Philosophy & Thinking", slug: "topics/philosophy-and-thinking" },
-  { label: "Wellbeing & Growth", slug: "topics/wellbeing-and-growth" },
-  { label: "Travel & Adventure", slug: "topics/travel-and-adventure" },
-  { label: "Society & Systems", slug: "topics/society-and-systems" },
-  { label: "Psychology", slug: "topics/psychology" },
-  { label: "Building", slug: "topics/building" },
-  { label: "Health", slug: "topics/health" },
+  { label: "Philosophy & Thinking", slug: "topics/philosophy-and-thinking.base" },
+  { label: "Wellbeing & Growth", slug: "topics/wellbeing-and-growth.base" },
+  { label: "Travel & Adventure", slug: "topics/travel-and-adventure.base" },
+  { label: "Society & Systems", slug: "topics/society-and-systems.base" },
+  { label: "Psychology", slug: "topics/psychology.base" },
+  { label: "Building", slug: "topics/building.base" },
+  { label: "Health & Exercise", slug: "topics/health.base" },
 ]
 
 /** Tab persistence: saves/restores active tab across Quartz SPA navigations */
@@ -83,6 +83,14 @@ const css = `
   transition: background-color 0.15s, color 0.15s;
 }
 .topics-list a:hover { background-color: var(--lightgray); color: var(--secondary); }
+.dual-explorer .title-button.desktop-explorer { display: none; }
+.dual-explorer .explorer-ul > li > a.nav-file-title {
+  color: var(--secondary);
+  font-family: var(--headerFont);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
 `
 
 export default ((opts?: Partial<DualExplorerOptions>) => {
