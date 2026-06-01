@@ -9,4 +9,5 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-.publish-manifest.json
+.quartz/
+quartz/cli/tui/dist/

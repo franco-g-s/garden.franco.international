@@ -1,0 +1,336 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: "Franco's Digital Garden"
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  analytics:
+    provider: cloudflare
+    token: a4f83cd948034998979ee9c2f5d992d4
+  locale: en-US
+  baseUrl: garden.franco.international
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header: Inter
+      body: Inter
+      code: JetBrains Mono
+    colors:
+      lightMode:
+        light: "#ffffff"
+        lightgray: "#f5f5f7"
+        gray: "#d1d1d6"
+        darkgray: "#86868b"
+        dark: "#1d1d1f"
+        secondary: "#3282f7"
+        tertiary: "#4ad55f"
+        highlight: "rgba(50, 130, 247, 0.15)"
+        textHighlight: "#e0cd6388"
+      darkMode:
+        light: "#1d1d1f"
+        lightgray: "#2c2c2e"
+        gray: "#48484a"
+        darkgray: "#aeaeb2"
+        dark: "#f5f5f7"
+        secondary: "#5694da"
+        tertiary: "#48c45a"
+        highlight: "rgba(86, 148, 218, 0.15)"
+        textHighlight: "#c4b45e88"
+plugins:
+  - source: github:quartz-community/created-modified-date
+    enabled: true
+    options:
+      defaultDateType: modified
+      priority:
+        - frontmatter
+        - git
+        - filesystem
+    order: 10
+  - source: github:quartz-community/syntax-highlighting
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+    order: 20
+  - source: github:quartz-community/obsidian-flavored-markdown
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+      enableCheckbox: true
+      disableBrokenWikilinks: true
+    order: 30
+  - source: github:quartz-community/github-flavored-markdown
+    enabled: true
+    order: 40
+  - source: github:quartz-community/table-of-contents
+    enabled: true
+    order: 50
+  - source: github:quartz-community/crawl-links
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+    order: 60
+  - source: github:quartz-community/description
+    enabled: true
+    order: 70
+  - source: github:quartz-community/latex
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 80
+  - source: github:quartz-community/citations
+    enabled: false
+    order: 85
+  - source: github:quartz-community/hard-line-breaks
+    enabled: false
+    order: 90
+  - source: github:quartz-community/ox-hugo
+    enabled: false
+    order: 91
+  - source: github:quartz-community/roam
+    enabled: false
+    order: 92
+  - source: github:quartz-community/remove-draft
+    enabled: true
+  - source: github:quartz-community/explicit-publish
+    enabled: false
+  - source: github:quartz-community/alias-redirects
+    enabled: true
+  - source: github:quartz-community/content-index
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: true
+  - source: github:quartz-community/favicon
+    enabled: true
+  - source: github:quartz-community/og-image
+    enabled: true
+  - source: github:quartz-community/cname
+    enabled: true
+  - source: github:quartz-community/canvas-page
+    enabled: true
+  - source: github:quartz-community/content-page
+    enabled: true
+  - source: github:quartz-community/folder-page
+    enabled: true
+  - source: github:quartz-community/tag-page
+    enabled: true
+  - source: github:quartz-community/explorer
+    enabled: true
+    # filterFn is set via quartz.ts TypeScript override (cannot be expressed in YAML)
+    options:
+      folderDefaultState: collapsed
+      useSavedState: true
+    layout:
+      position: left
+      priority: 50
+  - source: github:quartz-community/graph
+    enabled: true
+    options:
+      localGraph:
+        showTags: false
+        depth: 1
+      globalGraph:
+        showTags: false
+    layout:
+      position: right
+      priority: 10
+  - source: github:quartz-community/search
+    enabled: true
+    layout:
+      position: left
+      priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
+  - source: github:quartz-community/backlinks
+    enabled: true
+    options:
+      hideWhenEmpty: false
+    layout:
+      position: right
+      priority: 30
+  - source: github:quartz-community/article-title
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+  - source: github:quartz-community/content-meta
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 20
+  - source: github:quartz-community/tag-list
+    enabled: false
+    layout:
+      position: beforeBody
+      priority: 30
+  - source: github:quartz-community/note-properties
+    enabled: true
+    options:
+      includeAll: false
+      includedProperties:
+        - source
+        - author
+        - published
+        - description
+        - status
+        - rating
+        - start
+        - end
+        - due
+        - date
+        - filming_date
+        - filmed
+        - type
+        - categories
+        - genre
+        - seasons
+        - url
+        - areas
+        - topics
+        - books
+        - clippings
+        - collections
+        - trips
+        - related
+        - projects
+        - countries
+        - cities
+        - coordinates
+        - cast
+        - director
+        - producer
+        - writer
+        - duration
+        - year
+        - language
+        - r-value
+        - aliases
+        - journal-index
+      excludedProperties: []
+      hidePropertiesView: false
+    order: 5
+    layout:
+      position: beforeBody
+      priority: 25
+      display: all
+  - source: github:quartz-community/page-title
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+  - source: github:quartz-community/darkmode
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+  - source: github:quartz-community/reader-mode
+    enabled: true
+    layout:
+      position: left
+      priority: 35
+      group: toolbar
+  - source: github:quartz-community/breadcrumbs
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      condition: not-index
+  - source: github:quartz-community/comments
+    enabled: false
+    options:
+      provider: giscus
+      options: {}
+    layout:
+      position: afterBody
+      priority: 10
+  - source: github:quartz-community/footer
+    enabled: true
+    options:
+      links:
+        GitHub: https://github.com/franco-g-s
+        Email: mailto:franco@goxcoworld.com
+        Instagram: https://instagram.com/gsfranco2006/
+        Strava: https://www.strava.com/athletes/fgomezschumacher
+        LinkedIn: https://www.linkedin.com/in/franco-g%C3%B3mez-schumacher-17a985123/
+  - source: github:quartz-community/recent-notes
+    enabled: true
+    options:
+      title: "Recently Edited Notes"
+      limit: 5
+      showTags: false
+      linkToMore: false
+    layout:
+      position: afterBody
+      priority: 5
+      condition: index-only
+  - source: github:quartz-community/spacer
+    enabled: true
+    options: {}
+    order: 25
+    layout:
+      position: left
+      priority: 25
+      display: mobile-only
+  - source: github:quartz-community/bases-page
+    enabled: true
+    options: {}
+    order: 50
+  - source: github:quartz-community/unlisted-pages
+    enabled: true
+    options: {}
+    order: 45
+  - source: github:quartz-community/encrypted-pages
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+    order: 900
+    layout:
+      position: body
+      priority: 100
+      display: all
+  - source: github:quartz-community/stacked-pages
+    enabled: false
+    layout:
+      position: afterBody
+      priority: 50
+      display: all
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      exclude:
+        - reader-mode
+        - note-properties
+      positions:
+        right: []
+    tag:
+      exclude:
+        - reader-mode
+        - note-properties
+      positions:
+        right: []
+    canvas: {}
+    bases: {}
