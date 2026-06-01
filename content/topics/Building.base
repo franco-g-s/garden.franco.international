@@ -8,6 +8,7 @@ filters:
     - list(topics).contains("Problem-Solving")
     - list(topics).contains("Creativity")
     - list(topics).contains("Innovation")
+    - file.inFolder("projects")
 views:
   - type: table
     name: Notes

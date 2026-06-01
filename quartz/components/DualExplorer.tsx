@@ -23,7 +23,7 @@ const defaultTopics: TopicLink[] = [
   { label: "Society & Systems", slug: "topics/society-and-systems.base" },
   { label: "Psychology", slug: "topics/psychology.base" },
   { label: "Building", slug: "topics/building.base" },
-  { label: "Health & Exercise", slug: "topics/health.base" },
+  { label: "Health & Exercise", slug: "topics/health-and-exercise.base" },
 ]
 
 /** Tab persistence: saves/restores active tab across Quartz SPA navigations */
