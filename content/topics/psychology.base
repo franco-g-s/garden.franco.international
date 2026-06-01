@@ -1,0 +1,28 @@
+filters:
+  or:
+    - list(topics).contains("Psychology")
+    - list(topics).contains("Emotions")
+    - list(topics).contains("Relationships")
+    - list(topics).contains("Neuroscience")
+    - list(topics).contains("Communication")
+    - list(topics).contains("Perception")
+    - list(topics).contains("Attention")
+    - list(topics).contains("Dopamine")
+views:
+  - type: cards
+    name: All
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC

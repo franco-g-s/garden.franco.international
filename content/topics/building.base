@@ -1,0 +1,34 @@
+filters:
+  or:
+    - list(topics).contains("Technology")
+    - list(topics).contains("AI")
+    - list(topics).contains("Automation")
+    - list(topics).contains("Coding")
+    - list(topics).contains("Entrepreneurship")
+    - list(topics).contains("Problem-Solving")
+    - list(topics).contains("Creativity")
+    - list(topics).contains("Innovation")
+views:
+  - type: table
+    name: Notes
+    filters:
+      and:
+        - "!file.inFolder('projects')"
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Projects
+    filters:
+      and:
+        - file.inFolder("projects")
+    order:
+      - file.name
+      - status
+    sort:
+      - property: status
+        direction: DESC

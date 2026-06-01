@@ -1,0 +1,28 @@
+filters:
+  or:
+    - list(topics).contains("Personal Growth")
+    - list(topics).contains("Habits")
+    - list(topics).contains("Mindfulness")
+    - list(topics).contains("Happiness")
+    - list(topics).contains("Self-Improvement")
+    - list(topics).contains("Motivation")
+    - list(topics).contains("Intentionality")
+    - list(topics).contains("Lifestyle Design")
+views:
+  - type: cards
+    name: All
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC

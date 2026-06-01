@@ -1,0 +1,19 @@
+filters:
+  or:
+    - list(topics).contains("Exercise")
+    - list(topics).contains("Nutrition")
+    - list(topics).contains("Physical Health")
+    - file.inFolder("log/exercise")
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - "!file.name.equals('index')"
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC

@@ -1,0 +1,28 @@
+filters:
+  or:
+    - list(topics).contains("Network Science")
+    - list(topics).contains("Social Networks")
+    - list(topics).contains("Complexity")
+    - list(topics).contains("Organizations")
+    - list(topics).contains("Game Theory")
+    - list(topics).contains("Groupthink")
+    - list(topics).contains("Social Change")
+    - list(topics).contains("Cooperation")
+views:
+  - type: cards
+    name: All
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC
