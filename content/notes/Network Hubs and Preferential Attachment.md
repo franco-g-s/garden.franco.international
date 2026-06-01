@@ -9,7 +9,7 @@ topics:
   - Complexity
 videos:
   - >-
-    [[media/youtube/We simulated if you can really reach anyone in 6 steps|We
+    [[log/youtube/We simulated if you can really reach anyone in 6 steps|We
     simulated if you can really reach anyone in 6 steps]]
 related:
   - >-
@@ -63,4 +63,4 @@ The same structural property that makes networks efficient (hubs connecting ever
 
 ---
 
-[[notes/index]] [[media/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] 
+[[notes/index]] [[log/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] 

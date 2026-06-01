@@ -11,7 +11,7 @@ topics:
   - Purpose
 videos:
   - >-
-    [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter 
+    [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter 
     Tech Support  WIRED|Harvard Professor Answers Happiness Questions From
     Twitter  Tech Support  WIRED]]
 ---
@@ -72,4 +72,4 @@ The goal isn't to find the "perfect" purpose, but to live with intentional atten
 
 ---
 
-[[notes/index]] [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 
+[[notes/index]] [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 

@@ -11,7 +11,7 @@ topics:
   - Happiness
 videos:
   - >-
-    [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter 
+    [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter 
     Tech Support  WIRED|Harvard Professor Answers Happiness Questions From
     Twitter  Tech Support  WIRED]]
 related:
@@ -92,4 +92,4 @@ If any area is lacking, that's where to focus your energy for greater overall ha
 
 ---
 
-[[notes/index]] [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] [[notes/Finding Purpose]] 
+[[notes/index]] [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] [[notes/Finding Purpose]] 

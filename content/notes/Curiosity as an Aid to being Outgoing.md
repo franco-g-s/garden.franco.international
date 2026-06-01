@@ -3,7 +3,7 @@ created: '2025-07-13'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 topics:
   - Social Life
   - Extroversion
@@ -12,4 +12,4 @@ To act outgoing, it is helpful to ask questions, and let the other people do the
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 

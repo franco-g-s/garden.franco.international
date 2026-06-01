@@ -15,7 +15,7 @@ topics:
   - Cooperation
 videos:
   - >-
-    [[media/youtube/We simulated if you can really reach anyone in 6 steps|We
+    [[log/youtube/We simulated if you can really reach anyone in 6 steps|We
     simulated if you can really reach anyone in 6 steps]]
 ---
 ## Overview
@@ -61,4 +61,4 @@ Any two people on Earth can be connected through approximately six steps or fewe
 
 ---
 
-[[notes/index]] [[media/youtube/We simulated if you can really reach anyone in 6 steps]] 
+[[notes/index]] [[log/youtube/We simulated if you can really reach anyone in 6 steps]] 

@@ -6,7 +6,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Mindfulness
   - Buddhism
@@ -37,4 +37,4 @@ The film shows that consciousness transforms experience—[[notes/Practicing Gra
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Impermanence Gives Life Meaning]] [[notes/Being Present and Mindful]] [[notes/Practicing Gratitude]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Impermanence Gives Life Meaning]] [[notes/Being Present and Mindful]] [[notes/Practicing Gratitude]] 

@@ -3,7 +3,7 @@ created: '2025-09-07'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 topics:
   - Curiosity
   - Persistence
@@ -15,4 +15,4 @@ Rejection (or just simply a “no”) can come from the outside world, but it ca
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 

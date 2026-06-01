@@ -3,7 +3,7 @@ created: '2026-01-21'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 topics:
   - Intentionality
   - Simplicity
@@ -17,4 +17,4 @@ In a simpler day, we can allow our mind to wander, and a sort of fog is lifted. 
 
 ---
 
-[[media/books/A Simpler Life]] 
+[[log/books/A Simpler Life]] 

@@ -19,7 +19,7 @@ related:
     [[notes/The Broadcasting Paradox of Modern Travel|The Broadcasting Paradox
     of Modern Travel]]
   - >-
-    [[media/movies/The Secret Life of Walter Mitty (2013)|The Secret Life of
+    [[log/films/The Secret Life of Walter Mitty (2013)|The Secret Life of
     Walter Mitty (2013)]]
 ---
 
@@ -48,10 +48,10 @@ This connects to [[notes/The Broadcasting Paradox of Modern Travel|The Broadcast
 
 ## The Resolution
 
-In [[media/movies/The Secret Life of Walter Mitty (2013)|The Secret Life of Walter Mitty (2013)]], photographer Sean O'Connell chooses not to photograph a rare snow leopard: "Sometimes I don't. If I like a moment, for me, personally, I don't like to have the distraction of the camera. I just want to stay in it."  
+In [[log/films/The Secret Life of Walter Mitty (2013)|The Secret Life of Walter Mitty (2013)]], photographer Sean O'Connell chooses not to photograph a rare snow leopard: "Sometimes I don't. If I like a moment, for me, personally, I don't like to have the distraction of the camera. I just want to stay in it."  
 
 Sometimes the best way to preserve a moment is to simply be in it. The richest memories often come from experiences where we were fully present, not from experiences we documented most thoroughly.
 
 ---
 
-[[notes/index]] [[notes/Being Present and Mindful]] [[notes/Living in the Present Moment]] [[notes/The Broadcasting Paradox of Modern Travel]] [[media/movies/The Secret Life of Walter Mitty (2013)]] 
+[[notes/index]] [[notes/Being Present and Mindful]] [[notes/Living in the Present Moment]] [[notes/The Broadcasting Paradox of Modern Travel]] [[log/films/The Secret Life of Walter Mitty (2013)]] 

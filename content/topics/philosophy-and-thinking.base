@@ -1,0 +1,28 @@
+filters:
+  or:
+    - list(topics).contains("Philosophy")
+    - list(topics).contains("Buddhism")
+    - list(topics).contains("Presence")
+    - list(topics).contains("Time")
+    - list(topics).contains("Meaning")
+    - list(topics).contains("Free Will")
+    - list(topics).contains("Consciousness")
+    - list(topics).contains("Determinism")
+views:
+  - type: cards
+    name: All
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC

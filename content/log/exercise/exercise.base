@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("log/exercise")
+    - "!file.name.equals('index')"
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - type
+      - created
+    sort:
+      - property: created
+        direction: DESC

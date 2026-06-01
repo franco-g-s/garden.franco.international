@@ -5,7 +5,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Interstellar (2014)|Interstellar (2014)]]'
+  - '[[log/films/Interstellar (2014)|Interstellar (2014)]]'
 topics:
   - Time
   - Presence
@@ -28,8 +28,8 @@ Interstellar explores profound themes around time, love, sacrifice, and humanity
 
 **Related to Other Films:**
 - [[notes/Groundhog Day - Key Takeaways|Groundhog Day - Key Takeaways]] - Both explore time and presence from different angles
-- [[media/movies/Arrival (2016)|Arrival (2016)]] - Another exploration of non-linear time and its implications
+- [[log/films/Arrival (2016)|Arrival (2016)]] - Another exploration of non-linear time and its implications
 
 ---
 
-[[notes/index]] [[media/movies/Interstellar (2014)]] 
+[[notes/index]] [[log/films/Interstellar (2014)]] 

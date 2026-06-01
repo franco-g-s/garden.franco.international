@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 ---
 The habit loop describes the three key parts of a habit that form a cycle. They are:
 1. The Cue  
@@ -18,4 +18,4 @@ For example, if you execute a certain routine when you get stimulated by a certa
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

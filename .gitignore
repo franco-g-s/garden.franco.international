@@ -11,3 +11,5 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+.publish-manifest.json
+.publish-manifest.json.archive

@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 topics:
   - Simplicity
 ---
@@ -12,4 +12,4 @@ Simplicity in the modern age is often something that people strive for. This lon
 
 ---
 
-[[media/books/A Simpler Life]] 
+[[log/books/A Simpler Life]] 

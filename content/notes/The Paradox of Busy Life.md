@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 topics:
   - Mindfulness
   - Presence
@@ -39,4 +39,4 @@ The paradox resolves when we recognize that less can be more. By doing fewer thi
 
 ---
 
-[[notes/index]] [[media/books/A Simpler Life]] [[notes/The fruitful simplicity of quieter days]] [[notes/Living in the Present Moment]] [[notes/Being Present and Mindful]] 
+[[notes/index]] [[log/books/A Simpler Life]] [[notes/The fruitful simplicity of quieter days]] [[notes/Living in the Present Moment]] [[notes/Being Present and Mindful]] 

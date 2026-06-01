@@ -8,7 +8,7 @@ topics:
   - Network Science
 videos:
   - >-
-    [[media/youtube/We simulated if you can really reach anyone in 6 steps|We
+    [[log/youtube/We simulated if you can really reach anyone in 6 steps|We
     simulated if you can really reach anyone in 6 steps]]
 related:
   - >-
@@ -54,4 +54,4 @@ These intentional connections serve multiple purposes: they create valuable shor
 
 ---
 
-[[notes/index]] [[media/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/The Small-World Paradox]] [[notes/The Strength of Weak Ties]] 
+[[notes/index]] [[log/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/The Small-World Paradox]] [[notes/The Strength of Weak Ties]] 

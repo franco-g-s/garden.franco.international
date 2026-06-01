@@ -1,0 +1,26 @@
+filters:
+  or:
+    - list(topics).contains("Travel")
+    - list(topics).contains("Bikepacking")
+    - list(topics).contains("Solitude")
+    - list(topics).contains("Wilderness")
+    - list(topics).contains("Nature")
+    - list(topics).contains("Adventure")
+views:
+  - type: cards
+    name: All
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC

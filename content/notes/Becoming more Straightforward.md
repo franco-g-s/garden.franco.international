@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 topics:
   - Straightforwardness
 ---
@@ -12,4 +12,4 @@ To become more straightforward, you have to stop doubting the legitimacy of your
 
 ---
 
-[[media/books/A Simpler Life]] 
+[[log/books/A Simpler Life]] 

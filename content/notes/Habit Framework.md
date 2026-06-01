@@ -3,12 +3,12 @@ created: '2025-07-10'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 topics:
   - Habits
   - Framework
 ---
-The habit framework serves as a practical guide to [[notes/Breaking Habits|changing habits]] that distills the lessons from [[media/books/The Power of Habit|The Power of Habit]]. 
+The habit framework serves as a practical guide to [[notes/Breaking Habits|changing habits]] that distills the lessons from [[log/books/The Power of Habit|The Power of Habit]]. 
 
 ### Step 1: Identify the Routine
 To understand your own habits, you need to identify the components of your [[notes/Habit Loop|habit loop]]. First, identify the routine, which is the behavior you want to change. Next, you need to find the cue and reward for this routine, which is easier said than done. To figure this out, a little experimentation is needed, because, more often than not, both the reward and the cue are hidden behind noise. 
@@ -42,4 +42,4 @@ Sometimes, changing habits can take a long time, and it might require repeated e
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

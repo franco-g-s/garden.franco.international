@@ -1,0 +1,20 @@
+filters:
+  or:
+    - file.inFolder("log/books")
+    - file.inFolder("log/films")
+    - file.inFolder("log/youtube")
+    - file.inFolder("log/exercise")
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - "!file.name.equals('index')"
+    order:
+      - file.name
+      - type
+      - status
+      - created
+    sort:
+      - property: created
+        direction: DESC

@@ -3,7 +3,7 @@ created: '2025-07-09'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 ---
 [[notes/Weak Ties|Weak ties]] can be more powerful than strong ties, especially in how gossip spreads or political movements start. Their power can help explain how a protest can expand from a group of friends into a broad social movement. 
 
@@ -16,4 +16,4 @@ The power of weak ties comes from their role as [[notes/Network Shortcuts|Networ
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

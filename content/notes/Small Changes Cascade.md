@@ -6,7 +6,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Personal Growth
   - Habits
@@ -34,4 +34,4 @@ Every day you face moments where you can repeat the same pattern or make a sligh
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Practicing Gratitude]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Practicing Gratitude]] 

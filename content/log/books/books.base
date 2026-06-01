@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.inFolder("log/books")
+    - "!file.name.equals('index')"
+views:
+  - type: cards
+    name: All Books
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - file.name
+      - author
+      - status
+      - rating
+    sort:
+      - property: created
+        direction: DESC
+    image: note.image
+    imageAspectRatio: 1.5
+  - type: table
+    name: This Book's Notes
+    filters:
+      and:
+        - list(books).contains(this)

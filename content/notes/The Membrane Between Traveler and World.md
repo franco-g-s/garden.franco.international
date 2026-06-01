@@ -9,7 +9,7 @@ topics:
   - Bikepacking
 related:
   - >-
-    [[media/youtube/We've Forgotten how to Travel|We've Forgotten how to
+    [[log/youtube/We've Forgotten how to Travel|We've Forgotten how to
     Travel]]
   - Travel Philosophy
   - >-
@@ -36,4 +36,4 @@ Each layer of separation you remove makes you more present in the journey. The m
 
 ---
 
-[[media/youtube/We've Forgotten how to Travel]] [[notes/The Physicality of Distance in Slow Travel]] 
+[[log/youtube/We've Forgotten how to Travel]] [[notes/The Physicality of Distance in Slow Travel]] 

@@ -6,7 +6,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Buddhism
   - Philosophy
@@ -86,4 +86,4 @@ The film provides a lived illustration of how these principles work together. Ph
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] 

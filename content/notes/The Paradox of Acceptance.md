@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Personal Growth
   - Mindfulness
@@ -39,4 +39,4 @@ You have more control over your experience through attitude than through changin
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Living in the Present Moment]] [[notes/Groundhog Day - Key Takeaways]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Living in the Present Moment]] [[notes/Groundhog Day - Key Takeaways]] 

@@ -10,7 +10,7 @@ topics:
   - Cooperation
 videos:
   - >-
-    [[media/youtube/We simulated if you can really reach anyone in 6 steps|We
+    [[log/youtube/We simulated if you can really reach anyone in 6 steps|We
     simulated if you can really reach anyone in 6 steps]]
 related:
   - >-
@@ -83,4 +83,4 @@ The three-part structure mirrors the network principles: strong ties provide the
 
 ---
 
-[[notes/index]] [[media/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/Network Shortcuts]] [[notes/Social Media and Network Toxicity]] 
+[[notes/index]] [[log/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/Network Shortcuts]] [[notes/Social Media and Network Toxicity]] 

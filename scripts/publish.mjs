@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// DEPRECATED: superseded by the Hermes Publisher agent.
+// Do not run this script. See docs/superpowers/specs/2026-06-01-garden-revamp-design.md
 
 /**
  * Publishing script for franco.international

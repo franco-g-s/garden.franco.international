@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.inFolder("log/youtube")
+    - "!file.name.equals('index')"
+views:
+  - type: table
+    name: All Videos
+    order:
+      - file.name
+      - source
+      - created
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 400
+  - type: table
+    name: This Video's Notes
+    filters:
+      and:
+        - list(collections).contains(this)

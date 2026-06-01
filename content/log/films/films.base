@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.inFolder("log/films")
+    - "!file.name.equals('index')"
+views:
+  - type: cards
+    name: All Films
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - file.name
+      - director
+      - year
+      - rating
+    sort:
+      - property: year
+        direction: DESC
+    image: note.image
+    imageAspectRatio: 1.5
+  - type: table
+    name: This Film's Notes
+    filters:
+      and:
+        - list(movies).contains(this)

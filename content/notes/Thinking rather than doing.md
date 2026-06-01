@@ -3,7 +3,7 @@ created: '2026-01-22'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 aliases:
   - 'Think twice, do once'
 ---
@@ -16,4 +16,4 @@ Most businesses and ventures fail not for a lack of effort or action, but becaus
 
 ---
 
-[[media/books/A Simpler Life]] 
+[[log/books/A Simpler Life]] 

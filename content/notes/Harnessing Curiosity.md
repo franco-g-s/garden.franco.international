@@ -3,7 +3,7 @@ created: '2025-07-13'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 topics:
   - Curiosity
 ---
@@ -11,4 +11,4 @@ For curiosity to be effective, it has to be harnessed to at least two other key 
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 
