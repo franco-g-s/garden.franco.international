@@ -9,7 +9,7 @@ views:
     name: All
     filters:
       and:
-        - "!file.name.equals('index')"
+        - "file.name != 'index'"
     order:
       - file.name
       - created

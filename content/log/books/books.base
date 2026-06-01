@@ -1,7 +1,7 @@
 filters:
   and:
     - file.inFolder("log/books")
-    - "!file.name.equals('index')"
+    - "file.name != 'index'"
 views:
   - type: cards
     name: All Books

@@ -1,7 +1,7 @@
 filters:
   and:
     - file.inFolder("projects")
-    - "!file.name.equals('index')"
+    - "file.name != 'index'"
 views:
   - type: table
     name: All Projects
