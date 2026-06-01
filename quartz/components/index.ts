@@ -6,6 +6,7 @@ import MobileOnly from "./MobileOnly"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import FloatingControls from "./FloatingControls"
+import DualExplorer from "./DualExplorer"
 
 export { componentRegistry, defineComponent } from "./registry"
 export { External } from "./external"
@@ -21,4 +22,5 @@ export {
   Flex,
   ConditionalRender,
   FloatingControls,
+  DualExplorer,
 }
