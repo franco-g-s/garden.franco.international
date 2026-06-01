@@ -6,8 +6,6 @@ areas:
   - '[[log/index|Log]]'
 title: YouTube
 ---
-Youtube videos I've watched and taken notes on.
+Videos and talks worth keeping a record of.
 
----
-
-[[log/index]] 
+![[youtube.base]] 

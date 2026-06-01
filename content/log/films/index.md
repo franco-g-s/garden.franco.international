@@ -6,8 +6,6 @@ areas:
   - '[[log/index|Log]]'
 title: Films
 ---
-Films I've watched or want to watch and my rating for each of them, all linked to my notes about each.
+Films I've watched, with notes where something stayed with me.
 
----
-
-[[log/index]] 
+![[films.base]] 

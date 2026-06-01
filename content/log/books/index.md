@@ -6,8 +6,6 @@ areas:
   - '[[log/index|Log]]'
 title: Books
 ---
-Books I've read, am currently reading, or want to read, all linked to notes about each of them.
+Books I've read, with notes where I had something to say.
 
----
-
-[[log/index]] 
+![[books.base]] 
