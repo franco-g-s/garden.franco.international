@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.inFolder("notes")
+    - "!file.name.equals('index')"
+views:
+  - type: table
+    name: All Notes
+    order:
+      - file.name
+      - created
+      - topics
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 400

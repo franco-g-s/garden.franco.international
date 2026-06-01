@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("projects")
+    - "!file.name.equals('index')"
+views:
+  - type: table
+    name: All Projects
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - file.name
+      - status
+      - url
+    sort:
+      - property: status
+        direction: DESC
+    columnSize:
+      file.name: 400
