@@ -12,4 +12,4 @@ This is my digital garden. It's a place where I keep notes, track what I'm readi
 
 **[Topics](/topics/philosophy-and-thinking)** — browse by theme rather than content type.
 
-→ [About me](about%20me.md)
+→ [About me](/about-me)
