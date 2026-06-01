@@ -3,7 +3,7 @@ created: '2026-01-20'
 tags:
   - books
 areas:
-  - '[[media/books/index|Books]]'
+  - '[[log/books/index|Books]]'
 year: 2021
 author:
   - Oliver Burkeman
@@ -33,4 +33,4 @@ isbn: 9781473545557
 
 ---
 
-[[media/books/index]] 
+[[log/books/index]] 

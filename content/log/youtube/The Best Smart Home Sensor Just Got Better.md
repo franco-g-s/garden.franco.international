@@ -3,7 +3,7 @@ created: '2025-09-25'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|YouTube]]'
+  - '[[log/youtube/index|YouTube]]'
   - Smart Home
 title: The Best Smart Home Sensor Just Got Better
 author:
@@ -102,4 +102,4 @@ And if you’ve got ideas for improving this design, I’d love to hear them. Hi
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

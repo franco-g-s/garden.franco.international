@@ -9,7 +9,7 @@ topics:
   - Bikepacking
 related:
   - >-
-    [[media/youtube/We've Forgotten how to Travel|We've Forgotten how to
+    [[log/youtube/We've Forgotten how to Travel|We've Forgotten how to
     Travel]]
   - Travel Philosophy
   - The journey is more important than the destination
@@ -23,7 +23,7 @@ related:
 
 In our modern world, distance has become abstract - just a number on a screen, a duration in a plane seat. But when you're bikepacking, 100km isn't a statistic, it's an experience that lives in your body and mind.
 
-Distance becomes visceral. It's in your legs as they push through the kilometers, in your lungs as you climb that endless pass, in the hours you spend watching the sun move across the sky. This creates what [[media/youtube/We've Forgotten how to Travel|Like Stories of Old]] might call "proper" travel - where the journey itself transforms you because you're *in* it, not just transported *through* it.
+Distance becomes visceral. It's in your legs as they push through the kilometers, in your lungs as you climb that endless pass, in the hours you spend watching the sun move across the sky. This creates what [[log/youtube/We've Forgotten how to Travel|Like Stories of Old]] might call "proper" travel - where the journey itself transforms you because you're *in* it, not just transported *through* it.
 
 When you fly somewhere, those 8 hours disappear into a void. You board in one reality and step off into another, with nothing to show for the gap but jet lag and a vague sense of displacement. The distance between departure and arrival has been collapsed into a momentary disorientation.
 
@@ -37,4 +37,4 @@ This is what modern travel has lost in its pursuit of efficiency. We've optimize
 
 ---
 
-[[media/youtube/We've Forgotten how to Travel]] [[notes/Temporal vs Spatial Expansion in Travel]] [[notes/The Membrane Between Traveler and World]] 
+[[log/youtube/We've Forgotten how to Travel]] [[notes/Temporal vs Spatial Expansion in Travel]] [[notes/The Membrane Between Traveler and World]] 

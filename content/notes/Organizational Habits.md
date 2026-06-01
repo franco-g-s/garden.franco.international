@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 topics:
   - Habits
   - Organizations
@@ -13,4 +13,4 @@ These organizational habits promise that continued profits if the patters and tr
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

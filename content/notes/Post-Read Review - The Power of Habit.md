@@ -3,7 +3,7 @@ created: '2025-07-11'
 tags:
   - book-reviews
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 ---
 “The Power of Habit” does what it says on the cover: It shows you the power of habits (who would have though…). Through different real life case studies, Charles Duhigg shows how habits play a role not only in individuals, but in companies, organizations, and cultural movements.   
 
@@ -13,4 +13,4 @@ As a result, Atomic Habits will be the book next up for learning how to actually
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

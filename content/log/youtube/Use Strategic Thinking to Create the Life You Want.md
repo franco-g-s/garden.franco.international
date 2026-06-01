@@ -3,7 +3,7 @@ created: '2026-02-09'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|Youtube]]'
+  - '[[log/youtube/index|Youtube]]'
 title: Use Strategic Thinking to Create the Life You Want
 author:
   - Harvard Business Review
@@ -245,4 +245,4 @@ And strategize your life helps you with the preparation.
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

@@ -10,7 +10,7 @@ topics:
   - Network Science
 videos:
   - >-
-    [[media/youtube/We simulated if you can really reach anyone in 6 steps|We
+    [[log/youtube/We simulated if you can really reach anyone in 6 steps|We
     simulated if you can really reach anyone in 6 steps]]
 related:
   - >-
@@ -39,4 +39,4 @@ The paradox is resolved by [[notes/Network Shortcuts|Network Shortcuts]]—a sma
 
 ---
 
-[[notes/index]] [[media/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/Network Shortcuts]] 
+[[notes/index]] [[log/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/Network Shortcuts]] 

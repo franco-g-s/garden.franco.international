@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 topics:
   - Groupthink
 ---
@@ -17,4 +17,4 @@ Having to constantly weigh the legitimacy of our thoughts against the imagined o
 
 ---
 
-[[media/books/A Simpler Life]] 
+[[log/books/A Simpler Life]] 

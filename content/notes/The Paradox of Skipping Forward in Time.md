@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Interstellar (2014)|Interstellar (2014)]]'
+  - '[[log/films/Interstellar (2014)|Interstellar (2014)]]'
 topics:
   - Time
   - Presence
@@ -41,4 +41,4 @@ In Interstellar, Cooper experiences this directly through time dilation—he "sk
 
 ---
 
-[[notes/index]] [[media/movies/Interstellar (2014)]] [[notes/Interstellar - Key Takeaways]] [[notes/Living in the Present Moment]] [[notes/Groundhog Day - Key Takeaways]] 
+[[notes/index]] [[log/films/Interstellar (2014)]] [[notes/Interstellar - Key Takeaways]] [[notes/Living in the Present Moment]] [[notes/Groundhog Day - Key Takeaways]] 

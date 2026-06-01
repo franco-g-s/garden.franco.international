@@ -15,7 +15,7 @@ related:
 topics:
   - Obsidian
   - QuickAdd
-  - '[[media/books/index|Books]]'
+  - '[[log/books/index|Books]]'
 ---
 
 ## Overview
@@ -144,7 +144,7 @@ created: 2026-02-09
 tags:
   - books  
 areas:
-  - "[[media/books/Books|Books]]"  
+  - "[[log/books/Books|Books]]"  
 year: 2018  
 author:
   - "James Clear"  
@@ -225,4 +225,4 @@ Both scripts follow the same design pattern:
 
 ---
 
-[[projects/index]] [[projects/Coding/QuickAdd Place Note Automation]] [[media/books/index]] 
+[[projects/index]] [[projects/Coding/QuickAdd Place Note Automation]] [[log/books/index]] 

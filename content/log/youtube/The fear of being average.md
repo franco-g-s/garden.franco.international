@@ -3,7 +3,7 @@ created: '2026-02-02'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|YouTube]]'
+  - '[[log/youtube/index|YouTube]]'
 title: The fear of being average
 author:
   - Verse Creates
@@ -301,4 +301,4 @@ those things control you.
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

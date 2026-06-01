@@ -10,7 +10,7 @@ topics:
   - Storytelling
 related:
   - >-
-    [[media/youtube/We've Forgotten how to Travel|We've Forgotten how to
+    [[log/youtube/We've Forgotten how to Travel|We've Forgotten how to
     Travel]]
   - Travel Philosophy
   - '[[notes/The Earned Arrival|The Earned Arrival]]'
@@ -37,4 +37,4 @@ Discomfort isn't the enemy of good travel. It's often the source of its meaning.
 
 ---
 
-[[media/youtube/We've Forgotten how to Travel]] [[notes/The Earned Arrival]] 
+[[log/youtube/We've Forgotten how to Travel]] [[notes/The Earned Arrival]] 

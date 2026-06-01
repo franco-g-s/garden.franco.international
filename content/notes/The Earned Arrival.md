@@ -9,7 +9,7 @@ topics:
   - Bikepacking
 related:
   - >-
-    [[media/youtube/We've Forgotten how to Travel|We've Forgotten how to
+    [[log/youtube/We've Forgotten how to Travel|We've Forgotten how to
     Travel]]
   - Travel Philosophy
   - >-
@@ -37,4 +37,4 @@ The satisfaction of the earned arrival isn't about suffering for the sake of it.
 
 ---
 
-[[media/youtube/We've Forgotten how to Travel]] [[notes/The Physicality of Distance in Slow Travel]] [[notes/Discomfort Creates Narrative]] 
+[[log/youtube/We've Forgotten how to Travel]] [[notes/The Physicality of Distance in Slow Travel]] [[notes/Discomfort Creates Narrative]] 

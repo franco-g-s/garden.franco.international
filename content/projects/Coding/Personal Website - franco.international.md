@@ -94,8 +94,8 @@ Each section has an `index.md` landing page.
 ### Routing Rules (first match wins)
 1. Explicit `web-path` property → use literally
 2. File in `ETH/` → mirror folder structure under `eth/` (slugified)
-3. Tag `books` or area `[[media/books/Books|Books]]` → `books/`
-4. Tag `movies` or area `[[media/movies/Movies|Movies]]` → `media/`
+3. Tag `books` or area `[[log/books/Books|Books]]` → `books/`
+4. Tag `movies` or area `[[log/films/Movies|Movies]]` → `media/`
 5. Tag `project`/`business` or area `Projects` → `projects/`
 6. Tag `clippings` → `notes/`
 7. Fallback → `notes/`

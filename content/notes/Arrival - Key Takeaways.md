@@ -5,7 +5,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Arrival (2016)|Arrival (2016)]]'
+  - '[[log/films/Arrival (2016)|Arrival (2016)]]'
 topics:
   - Time
   - Language
@@ -45,4 +45,4 @@ Both Arrival and [[notes/Interstellar - Key Takeaways|Interstellar]] explore sim
 
 ---
 
-[[notes/index]] [[media/movies/Arrival (2016)]] 
+[[notes/index]] [[log/films/Arrival (2016)]] 

@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Buddhism
   - Philosophy
@@ -55,4 +55,4 @@ Phil becomes MORE effective, MORE engaged, MORE alive—precisely because he's n
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/The Illusion of Self]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/Practicing Gratitude]] [[notes/Groundhog Day - Key Takeaways]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/The Illusion of Self]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/Practicing Gratitude]] [[notes/Groundhog Day - Key Takeaways]] 

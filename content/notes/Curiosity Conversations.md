@@ -3,7 +3,7 @@ created: '2025-07-13'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 topics:
   - Conversations
   - Curiosity
@@ -22,4 +22,4 @@ From a network perspective, curiosity conversations are a deliberate strategy fo
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 

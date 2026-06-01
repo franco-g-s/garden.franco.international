@@ -11,7 +11,7 @@ topics:
   - Attention
 videos:
   - >-
-    [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter 
+    [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter 
     Tech Support  WIRED|Harvard Professor Answers Happiness Questions From
     Twitter  Tech Support  WIRED]]
 ---
@@ -65,4 +65,4 @@ The goal isn't to eliminate all future thinking, but to be conscious of when you
 
 ---
 
-[[notes/index]] [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 
+[[notes/index]] [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 

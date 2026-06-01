@@ -3,7 +3,7 @@ created: '2025-07-09'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 ---
 Many movements are based on a three-part process:
 1. "A movement starts because of the social habits of friendship and the [[notes/Strong Ties|strong ties]] between close acquaintances."  
@@ -17,4 +17,4 @@ This three-part process maps directly onto network science principles: strong ti
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

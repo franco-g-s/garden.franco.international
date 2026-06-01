@@ -3,7 +3,7 @@ created: '2025-07-13'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 topics:
   - Curiosity
 ---
@@ -15,4 +15,4 @@ Curiosity also dictates the quality of many ordinary experiences. A curious sale
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 

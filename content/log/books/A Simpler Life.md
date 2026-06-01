@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - books
 areas:
-  - '[[media/books/index|Books]]'
+  - '[[log/books/index|Books]]'
 year: 2019
 author:
   - Life of School the
@@ -38,4 +38,4 @@ isbn: 9781912891689
 
 ---
 
-[[media/books/index]] 
+[[log/books/index]] 

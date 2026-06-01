@@ -3,7 +3,7 @@ created: '2026-01-20'
 tags:
   - movies
 areas:
-  - '[[media/movies/index|Movies]]'
+  - '[[log/films/index|Films]]'
 year: 2014
 director:
   - Christopher Nolan
@@ -42,4 +42,4 @@ language: en-US
 
 ---
 
-[[media/movies/index]] 
+[[log/films/index]] 

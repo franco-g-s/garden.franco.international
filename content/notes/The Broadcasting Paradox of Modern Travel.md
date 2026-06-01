@@ -11,12 +11,12 @@ topics:
   - Presence
 related:
   - >-
-    [[media/youtube/We've Forgotten how to Travel|We've Forgotten how to
+    [[log/youtube/We've Forgotten how to Travel|We've Forgotten how to
     Travel]]
   - Travel Philosophy
   - The journey is more important than the destination
   - >-
-    [[media/movies/The Secret Life of Walter Mitty (2013)|The Secret Life of
+    [[log/films/The Secret Life of Walter Mitty (2013)|The Secret Life of
     Walter Mitty (2013)]]
 ---
 
@@ -34,7 +34,7 @@ The question becomes: how do you stay connected without performing?
 
 This extends beyond social media to documentation itself. I catch myself thinking about capturing the shot - not necessarily for posting, but just for future reference, to prove I saw it, to remember easier. But in doing so, I'm not actually *seeing* it. The camera becomes insurance against forgetting, but the act of documenting can actually prevent genuine memory formation.
 
-This relates to that scene in [[media/movies/The Secret Life of Walter Mitty (2013)|The Secret Life of Walter Mitty (2013)]] where Sean O'Connell, the photographer, chooses not to photograph the snow leopard. Sometimes the best way to preserve a moment is to simply be in it.
+This relates to that scene in [[log/films/The Secret Life of Walter Mitty (2013)|The Secret Life of Walter Mitty (2013)]] where Sean O'Connell, the photographer, chooses not to photograph the snow leopard. Sometimes the best way to preserve a moment is to simply be in it.
 
 **What I'm aiming for**: Intentional sharing that doesn't interfere with presence. Share for connection, not for performance. Share to maintain relationships, not to prove I'm traveling. The core principle is presence over broadcasting.
 
@@ -50,4 +50,4 @@ The goal isn't zero sharing. It's mindful sharing. Being conscious of when the c
 
 ---
 
-[[media/youtube/We've Forgotten how to Travel]] [[media/movies/The Secret Life of Walter Mitty (2013)]] 
+[[log/youtube/We've Forgotten how to Travel]] [[log/films/The Secret Life of Walter Mitty (2013)]] 

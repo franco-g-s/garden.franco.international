@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 aliases:
   - Changing Habits
 topics:
@@ -15,4 +15,4 @@ To break habits, you must alter or take [[notes/Habit Loop|Habit Loop]] apart. I
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

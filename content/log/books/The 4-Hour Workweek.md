@@ -3,7 +3,7 @@ created: '2026-01-20'
 tags:
   - books
 areas:
-  - '[[media/books/index|Books]]'
+  - '[[log/books/index|Books]]'
 year: 2007
 author:
   - Timothy Ferriss
@@ -34,4 +34,4 @@ isbn: 9781446490594
 
 ---
 
-[[media/books/index]] 
+[[log/books/index]] 

@@ -3,7 +3,7 @@ created: '2025-09-08'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|YouTube]]'
+  - '[[log/youtube/index|YouTube]]'
 title: >-
   Harvard Professor Answers Happiness Questions From Twitter | Tech Support |
   WIRED
@@ -126,4 +126,4 @@ Well, it looks like that's all we've got for today. Those are your questions. I 
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

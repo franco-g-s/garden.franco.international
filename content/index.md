@@ -7,7 +7,7 @@ This is my personal knowledge base and digital garden, where I share my notes, p
 ## What You'll Find Here
 
 - **[[about/index|About Me]]** - Learn more about who I am and what I do
-- **[[media/index|Media]]** - Books, movies, YouTube videos, and other media I've consumed
+- **[[log/index|Media]]** - Books, movies, YouTube videos, and other media I've consumed
 - **[[projects/index|Projects]]** - Personal and professional projects I'm working on
 - **[[exercise/index|Exercise]]** - Sports, training, and fitness
 - **[[notes/index|Notes]]** - General notes and reflections on various topics

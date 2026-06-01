@@ -12,7 +12,7 @@ topics:
   - Psychology
 videos:
   - >-
-    [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter 
+    [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter 
     Tech Support  WIRED|Harvard Professor Answers Happiness Questions From
     Twitter  Tech Support  WIRED]]
 ---
@@ -60,4 +60,4 @@ Gratitude isn't about feeling grateful - it's about **deciding** to be grateful 
 
 ---
 
-[[notes/index]] [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 
+[[notes/index]] [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 

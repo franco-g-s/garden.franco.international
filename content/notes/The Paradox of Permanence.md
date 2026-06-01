@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Philosophy
   - Buddhism
@@ -50,4 +50,4 @@ We need impermanence to give weight to our choices, create meaning in relationsh
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Impermanence Gives Life Meaning]] [[notes/Living in the Present Moment]] [[notes/Groundhog Day - Key Takeaways]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Impermanence Gives Life Meaning]] [[notes/Living in the Present Moment]] [[notes/Groundhog Day - Key Takeaways]] 

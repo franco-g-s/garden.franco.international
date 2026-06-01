@@ -3,7 +3,7 @@ created: '2025-11-11'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|YouTube]]'
+  - '[[log/youtube/index|YouTube]]'
 title: We've Forgotten how to Travel
 author:
   - Like Stories of Old
@@ -589,4 +589,4 @@ see Planet Wild in action, watch their video  protecting Europe’s ancient for
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

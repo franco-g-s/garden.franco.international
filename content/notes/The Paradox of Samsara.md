@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Buddhism
   - Philosophy
@@ -52,4 +52,4 @@ The paradox: the natural human strategy for dealing with life (avoid pain, seek 
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/Intrinsic vs Instrumental Action]] [[notes/Wanting Less Instead of Having More]] [[notes/Groundhog Day - Key Takeaways]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/Intrinsic vs Instrumental Action]] [[notes/Wanting Less Instead of Having More]] [[notes/Groundhog Day - Key Takeaways]] 

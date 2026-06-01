@@ -3,7 +3,7 @@ created: '2025-07-18'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 ---
 By seeking out people from other industries and communities from the ones we usually reside in, and doing so with curiosity and genuine interest for learning about the skill and the personality that it takes to perform in those worlds, we can open our eyes to other realities and ways to see the world. 
 
@@ -17,4 +17,4 @@ Seeking out people from other industries and communities doesn't just disrupt yo
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 

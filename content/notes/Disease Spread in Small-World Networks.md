@@ -9,7 +9,7 @@ topics:
   - Public Health
 videos:
   - >-
-    [[media/youtube/We simulated if you can really reach anyone in 6 steps|We
+    [[log/youtube/We simulated if you can really reach anyone in 6 steps|We
     simulated if you can really reach anyone in 6 steps]]
 related:
   - >-
@@ -59,4 +59,4 @@ The ramp-up is what's dangerous—by the time you notice widespread infection, i
 
 ---
 
-[[notes/index]] [[media/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/Network Shortcuts]] [[notes/Network Hubs and Preferential Attachment]] 
+[[notes/index]] [[log/youtube/We simulated if you can really reach anyone in 6 steps]] [[notes/Six Degrees of Separation - Key Takeaways]] [[notes/Network Shortcuts]] [[notes/Network Hubs and Preferential Attachment]] 

@@ -3,7 +3,7 @@ created: '2025-07-10'
 tags:
   - books
 areas:
-  - '[[media/books/index|Books]]'
+  - '[[log/books/index|Books]]'
 year: 2015
 author:
   - Brian Grazer
@@ -37,4 +37,4 @@ isbn: 9781476730776
 
 ---
 
-[[media/books/index]] 
+[[log/books/index]] 

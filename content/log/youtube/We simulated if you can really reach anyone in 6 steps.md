@@ -3,7 +3,7 @@ created: '2025-10-13'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|YouTube]]'
+  - '[[log/youtube/index|YouTube]]'
 title: We simulated if you can really reach anyone in 6 steps
 author:
   - Veritasium
@@ -271,4 +271,4 @@ Hey, if you made it this far, all the simulations we ran through with Derek, we 
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

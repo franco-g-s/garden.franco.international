@@ -6,7 +6,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Buddhism
   - Philosophy
@@ -36,4 +36,4 @@ Phil breaks free only when he stops trying to get what he wants (romance, escape
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Intrinsic vs Instrumental Action]] [[notes/Wanting Less Instead of Having More]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/Attitude Transforms Identical Circumstances]] [[notes/Intrinsic vs Instrumental Action]] [[notes/Wanting Less Instead of Having More]] 

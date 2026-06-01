@@ -3,7 +3,7 @@ created: '2025-07-13'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Curious Mind|A Curious Mind]]'
+  - '[[log/books/A Curious Mind|A Curious Mind]]'
 topics:
   - Questions
   - Curiosity
@@ -14,4 +14,4 @@ Curiosity can be urgent and trivial. Some questions have kind of impatient compu
 
 ---
 
-[[media/books/A Curious Mind]] 
+[[log/books/A Curious Mind]] 

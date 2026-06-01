@@ -3,7 +3,7 @@ created: '2025-05-28'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 topics:
   - Organizations
   - Habits
@@ -12,4 +12,4 @@ During crises, [[notes/Organizational Habits|Organizational Habits]] are much mo
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

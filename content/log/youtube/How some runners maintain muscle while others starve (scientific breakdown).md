@@ -3,7 +3,7 @@ created: '2025-11-21'
 tags:
   - youtube
 areas:
-  - '[[media/youtube/index|YouTube]]'
+  - '[[log/youtube/index|YouTube]]'
   - Running
   - Cycling
 title: How some runners maintain muscle while others starve (scientific breakdown)
@@ -100,4 +100,4 @@ So, I hope you enjoyed this video and found it helpful. Let it flow. Stay wild a
 
 ---
 
-[[media/youtube/index]] 
+[[log/youtube/index]] 

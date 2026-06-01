@@ -6,7 +6,7 @@ tags:
 areas:
   - '[[notes/index|Notes]]'
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Philosophy
   - Personal Growth
@@ -38,4 +38,4 @@ Often when you stop trying to use actions to get what you want, you end up getti
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/The Illusion of Self]] [[notes/Finding Purpose]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Groundhog Day - Key Takeaways]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/The Illusion of Self]] [[notes/Finding Purpose]] 

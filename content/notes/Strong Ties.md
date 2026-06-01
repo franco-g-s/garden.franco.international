@@ -3,7 +3,7 @@ created: '2025-07-09'
 tags:
   - book-notes
 books:
-  - '[[media/books/The Power of Habit|The Power of Habit]]'
+  - '[[log/books/The Power of Habit|The Power of Habit]]'
 ---
 Strong ties are firsthand relationships, so friends, coworkers, and people you have direct contact with on a day to day basis. These are people you know, not [[notes/Weak Ties|people you know of]]. 
 
@@ -13,4 +13,4 @@ Strong ties create high clustering in social networks—your friends tend to kno
 
 ---
 
-[[media/books/The Power of Habit]] 
+[[log/books/The Power of Habit]] 

@@ -11,7 +11,7 @@ topics:
   - Neuroscience
 videos:
   - >-
-    [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter 
+    [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter 
     Tech Support  WIRED|Harvard Professor Answers Happiness Questions From
     Twitter  Tech Support  WIRED]]
 ---
@@ -48,4 +48,4 @@ The key is recognizing that reducing unhappiness creates space for happiness, bu
 
 ---
 
-[[notes/index]] [[media/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 
+[[notes/index]] [[log/youtube/Harvard Professor Answers Happiness Questions From Twitter  Tech Support  WIRED]] 

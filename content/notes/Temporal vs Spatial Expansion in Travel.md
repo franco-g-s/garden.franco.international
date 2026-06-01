@@ -9,7 +9,7 @@ topics:
   - Bikepacking
 related:
   - >-
-    [[media/youtube/We've Forgotten how to Travel|We've Forgotten how to
+    [[log/youtube/We've Forgotten how to Travel|We've Forgotten how to
     Travel]]
   - Travel Philosophy
   - >-
@@ -29,7 +29,7 @@ But when you bikepack for 8 hours, every one of those hours is full:
 - The decision about whether to push on or start looking for camp
 - The gradual revelation of a mountain range as you approach it over hours instead of minutes
 
-The journey becomes *content*, not just a gap. This is what the [[media/youtube/We've Forgotten how to Travel|video]] means when it talks about accumulating distance slowly - you're not just covering ground, you're filling time with experience.
+The journey becomes *content*, not just a gap. This is what the [[log/youtube/We've Forgotten how to Travel|video]] means when it talks about accumulating distance slowly - you're not just covering ground, you're filling time with experience.
 
 Modern travel collapses both time and space. Bikepacking expands both. What "should" take 2 hours by car becomes a full day's journey, but that expansion creates space for observation, contemplation, the kind of mental wandering that doesn't happen in transit lounges.
 
@@ -41,4 +41,4 @@ Slow travel doesn't steal your time. It gives it back to you, filled with substa
 
 ---
 
-[[media/youtube/We've Forgotten how to Travel]] [[notes/The Physicality of Distance in Slow Travel]] 
+[[log/youtube/We've Forgotten how to Travel]] [[notes/The Physicality of Distance in Slow Travel]] 

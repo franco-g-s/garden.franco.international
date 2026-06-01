@@ -7,7 +7,7 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Groundhog Day (1993)|Groundhog Day (1993)]]'
+  - '[[log/films/Groundhog Day (1993)|Groundhog Day (1993)]]'
 topics:
   - Philosophy
   - Personal Growth
@@ -48,4 +48,4 @@ This shift from instrumental to intrinsic action represents finding authentic pu
 
 ---
 
-[[notes/index]] [[media/movies/Groundhog Day (1993)]] [[notes/Intrinsic vs Instrumental Action]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/Finding Purpose]] [[notes/Groundhog Day - Key Takeaways]] 
+[[notes/index]] [[log/films/Groundhog Day (1993)]] [[notes/Intrinsic vs Instrumental Action]] [[notes/The Cycle of Craving and Suffering (Samsara)]] [[notes/Finding Purpose]] [[notes/Groundhog Day - Key Takeaways]] 

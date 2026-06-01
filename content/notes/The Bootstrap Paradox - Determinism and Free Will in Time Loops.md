@@ -7,8 +7,8 @@ areas:
 collections:
   - Paradoxes
 movies:
-  - '[[media/movies/Interstellar (2014)|Interstellar (2014)]]'
-  - '[[media/movies/Arrival (2016)|Arrival (2016)]]'
+  - '[[log/films/Interstellar (2014)|Interstellar (2014)]]'
+  - '[[log/films/Arrival (2016)|Arrival (2016)]]'
 topics:
   - Time
   - Free Will
@@ -86,4 +86,4 @@ The only thing that matters is how you experience and engage with each moment as
 
 ---
 
-[[notes/index]] [[media/movies/Interstellar (2014)]] [[media/movies/Arrival (2016)]] [[notes/Interstellar - Key Takeaways]] [[notes/Arrival - Key Takeaways]] [[notes/Living in the Present Moment]] [[notes/The Paradox of Skipping Forward in Time]] 
+[[notes/index]] [[log/films/Interstellar (2014)]] [[log/films/Arrival (2016)]] [[notes/Interstellar - Key Takeaways]] [[notes/Arrival - Key Takeaways]] [[notes/Living in the Present Moment]] [[notes/The Paradox of Skipping Forward in Time]] 

@@ -3,7 +3,7 @@ created: '2025-12-27'
 tags:
   - movies
 areas:
-  - '[[media/movies/index|Movies]]'
+  - '[[log/films/index|Films]]'
 year: 2013
 director:
   - Ben Stiller
@@ -45,4 +45,4 @@ The irony is that Sean's profession is photography, yet he's conscious enough to
 
 ---
 
-[[media/movies/index]] 
+[[log/films/index]] 

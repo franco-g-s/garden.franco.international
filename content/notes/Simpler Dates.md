@@ -3,7 +3,7 @@ created: '2026-01-20'
 tags:
   - book-notes
 books:
-  - '[[media/books/A Simpler Life|A Simpler Life]]'
+  - '[[log/books/A Simpler Life|A Simpler Life]]'
 topics:
   - Dating
   - Relationships
@@ -17,4 +17,4 @@ A prerequisite to being honest when dating is to have a certain understanding an
 
 ---
 
-[[media/books/A Simpler Life]] 
+[[log/books/A Simpler Life]] 

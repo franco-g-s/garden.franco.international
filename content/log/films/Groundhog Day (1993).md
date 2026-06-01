@@ -3,7 +3,7 @@ created: '2025-10-20'
 tags:
   - movies
 areas:
-  - '[[media/movies/index|Movies]]'
+  - '[[log/films/index|Films]]'
 year: 1993
 director:
   - Harold Ramis
@@ -26,4 +26,4 @@ language: en-US
 
 ---
 
-[[media/movies/index]] 
+[[log/films/index]] 
