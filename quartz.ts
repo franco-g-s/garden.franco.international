@@ -25,7 +25,8 @@ componentRegistry.setOptionOverrides("dual-explorer", {
       node.slugSegment !== "tags" &&
       node.slugSegment !== "eth" &&
       node.slugSegment !== "topics" &&
-      node.slugSegment !== "index",
+      node.slugSegment !== "index" &&
+      !node.slugSegment.endsWith(".base"),
   },
 })
 

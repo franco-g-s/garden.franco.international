@@ -15,6 +15,7 @@ views:
     filters:
       and:
         - "!file.inFolder('projects')"
+        - "file.name != 'index'"
     order:
       - file.name
       - created
@@ -27,6 +28,7 @@ views:
     filters:
       and:
         - file.inFolder("projects")
+        - "file.name != 'index'"
     order:
       - file.name
       - status
