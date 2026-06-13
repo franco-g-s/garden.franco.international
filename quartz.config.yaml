@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: cloudflare
-    token: a4f83cd948034998979ee9c2f5d992d4
+    token: a7acdf2179a74393b38db5203d2af4d5
   locale: en-US
   baseUrl: garden.franco.international
   ignorePatterns:
