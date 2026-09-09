@@ -10,15 +10,44 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - name: Check changed markdown
+      - name: Check changed published files
         run: |
           set -euo pipefail
-          # base.sha, not origin/$base_ref: fetch-depth 0 gets the history but
-          # not necessarily the base branch ref, and `unknown revision` under
-          # `set -e` reads as a sanitize failure rather than a plumbing one.
+          # The file list is every type any of the four sites can publish, and
+          # is deliberately identical in all three repos rather than tailored
+          # to each. A `*.md` filter is what this replaces: cv publishes
+          # index.html and the hub publishes src/pages/index.astro, so their
+          # only markdown is CLAUDE.md / README.md / ROADMAP.md and every real
+          # content pull request passed green having read nothing at all.
+          # A repo simply has none of the types it does not use.
+          #
+          # -z and stdin, never `tr '\n' ' '` into an unquoted expansion: 97 of
+          # the garden's 110 notes have spaces in their names, and word-splitting
+          # one turns a content check into `cannot read about:` and exit 2 --
+          # a plumbing failure wearing a sanitizer's error message.
+          types=( '*.md' '*.base' '*.html' '*.astro' '*.css' '*.scss'
+                  '*.js' '*.mjs' '*.ts' '*.tsx' '*.json' )
+          list="$RUNNER_TEMP/changed.z"
+
           base='${{ github.event.pull_request.base.sha }}'
-          files=$(git diff --name-only --diff-filter=d \
-                  "$base"...HEAD -- '*.md' | tr '\n' ' ')
-          if [ -z "$files" ]; then echo "no markdown changed"; exit 0; fi
+          if [ -n "$base" ]; then
+            # base.sha, not origin/$base_ref: fetch-depth 0 gets the history but
+            # not necessarily the base branch ref, and `unknown revision` under
+            # `set -e` reads as a sanitize failure rather than a plumbing one.
+            git diff --name-only --diff-filter=d -z "$base"...HEAD -- "${types[@]}" > "$list"
+          else
+            # workflow_dispatch: no pull request, so sweep everything the repo
+            # publishes. Proving the gate can go red never proved that existing
+            # content passes it; this is the run that does.
+            git ls-files -z -- "${types[@]}" > "$list"
+          fi
+
+          # An empty list is a legitimate pass -- a pull request touching only
+          # images or workflow files really has nothing here to check.
+          if [ ! -s "$list" ]; then
+            echo "no publishable file changed"
+            exit 0
+          fi
+
           python .github/scripts/public_check.py \
-            --allowlist .github/scripts/frontmatter_allowlist.json -- $files
+            --allowlist .github/scripts/frontmatter_allowlist.json -0 < "$list"
