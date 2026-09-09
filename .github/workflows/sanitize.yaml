@@ -1,0 +1,24 @@
+name: Sanitize
+on:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  sanitize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Check changed markdown
+        run: |
+          set -euo pipefail
+          # base.sha, not origin/$base_ref: fetch-depth 0 gets the history but
+          # not necessarily the base branch ref, and `unknown revision` under
+          # `set -e` reads as a sanitize failure rather than a plumbing one.
+          base='${{ github.event.pull_request.base.sha }}'
+          files=$(git diff --name-only --diff-filter=d \
+                  "$base"...HEAD -- '*.md' | tr '\n' ' ')
+          if [ -z "$files" ]; then echo "no markdown changed"; exit 0; fi
+          python .github/scripts/public_check.py \
+            --allowlist .github/scripts/frontmatter_allowlist.json -- $files

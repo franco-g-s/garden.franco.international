@@ -1,0 +1,7 @@
+{
+  "allow": [
+    "aliases", "author", "categories", "created", "date", "description",
+    "duration", "genre", "image", "language", "published", "rating",
+    "source", "status", "tags", "title", "topics", "url", "year"
+  ]
+}
