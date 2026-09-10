@@ -51,3 +51,40 @@ jobs:
 
           python .github/scripts/public_check.py \
             --allowlist .github/scripts/frontmatter_allowlist.json -0 < "$list"
+
+      - name: Check changed images for GPS metadata
+        run: |
+          set -euo pipefail
+          # A SEPARATE step with its own list, deliberately. These paths must
+          # not join the array above: public_check.py `read_text()`s every path
+          # it is handed and a JPEG exits 2 on UnicodeDecodeError -- a plumbing
+          # failure wearing a sanitizer's error message.
+          #
+          # 17 of this hub's 26 photos carried a full GPS IFD for four months
+          # because `location` was a blocking policy category with no
+          # enforcement path into the one medium that carries locations by
+          # default. image_check.py asserts an ABSENCE, so unlike the identity
+          # rules it is safe to run in a public repo.
+          #
+          # :(icase) because cameras write .JPG and git pathspecs are
+          # case-sensitive on the Linux runner.
+          image_types=( ':(icase)*.jpg' ':(icase)*.jpeg' ':(icase)*.png'
+                        ':(icase)*.tif' ':(icase)*.tiff' ':(icase)*.heic'
+                        ':(icase)*.webp' )
+          list="$RUNNER_TEMP/changed-images.z"
+
+          base='${{ github.event.pull_request.base.sha }}'
+          if [ -n "$base" ]; then
+            git diff --name-only --diff-filter=d -z "$base"...HEAD -- "${image_types[@]}" > "$list"
+          else
+            # workflow_dispatch: sweep every image the repo ships, which is the
+            # run that proves the existing set is clean rather than untouched.
+            git ls-files -z -- "${image_types[@]}" > "$list"
+          fi
+
+          if [ ! -s "$list" ]; then
+            echo "no image changed"
+            exit 0
+          fi
+
+          python .github/scripts/image_check.py -0 < "$list"
