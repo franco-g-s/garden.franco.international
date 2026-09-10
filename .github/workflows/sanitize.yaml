@@ -53,6 +53,13 @@ jobs:
             --allowlist .github/scripts/frontmatter_allowlist.json -0 < "$list"
 
       - name: Check changed images for GPS metadata
+        # Runs even when the text step above went red. The two gates are
+        # independent and a check hidden behind another check's failure is a
+        # check nobody sees -- the garden's text step is red today on the
+        # already-published `areas`/`related` keys, which would otherwise mean
+        # its images were never examined at all. The job still fails if either
+        # step does.
+        if: ${{ !cancelled() }}
         run: |
           set -euo pipefail
           # A SEPARATE step with its own list, deliberately. These paths must
